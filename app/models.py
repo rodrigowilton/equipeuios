@@ -12,3 +12,8 @@ class AppBanco(models.Model):
 	uf = models.CharField(max_length=2, null=False, blank=False)
 	numero = models.CharField(max_length=10, null=False, blank=False)
 	datacadastro = models.DateTimeField(auto_now_add=True, null=False, blank=False)
+	aceita_whatsapp = models.BooleanField(default=False)
+
+
+	def __str__(self):
+		return self.nome

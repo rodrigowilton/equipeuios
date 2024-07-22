@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect
+from django.http import HttpResponse
+from .models import AppBanco
 from .forms import AppBancoForm
 
 def index(request):
     return render(request, "index.html")
 
-def create_appbanco(request):
+def create_appbancouios(request):
     if request.method == 'POST':
         form = AppBancoForm(request.POST)
         if form.is_valid():
@@ -22,3 +24,17 @@ def create_appbanco(request):
         form = AppBancoForm()
 
     return render(request, 'create_appbanco.html', {'form': form})
+
+
+def export_to_excel(request):
+    # Recuperar todos os objetos do modelo AppBanco
+    dados = AppBanco.objects.all()
+
+    # Enviar os dados para o template HTML
+    context = {
+        'dados': dados
+    }
+
+    return render(request, 'export_to_excel.html', context)
+
+

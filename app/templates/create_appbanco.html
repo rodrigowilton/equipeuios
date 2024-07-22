@@ -12,6 +12,13 @@
         input[type="text"], input[type="tel"] {
             text-transform: uppercase;
         }
+        .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: #007bff;
+            background-color: #007bff;
+        }
+        .custom-checkbox .custom-control-label::before {
+            border: 2px solid #007bff;
+        }
     </style>
     <script>
         function buscarCEP() {
@@ -131,6 +138,15 @@
                     <tr>
                         <td>{{ form.numero.label_tag }}</td>
                         <td>{{ form.numero }}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="custom-control custom-checkbox">
+                                {{ form.aceita_whatsapp }}
+                                <label class="custom-control-label" for="id_aceita_whatsapp"></label>
+                            </div>
+                        </td>
+                        <td>Você aceita receber mensagem pelo WhatsApp?</td>
                     </tr>
                     <!-- Adicione mais campos conforme necessário -->
                 </tbody>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relatório de Dados</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Celular</th>
+                <th>Cep</th>
+                <th>Endereço</th>
+                <th>Complemento</th>
+                <th>Bairro</th>
+                <th>Localidade</th>
+                <th>UF</th>
+                <th>Número</th>
+                <th>Data de Cadastro</th>
+                <th>Concorda WhatsApp?</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            {% for dado in dados %}
+            <tr>
+                <td>{{ dado.nome }}</td>
+                <td>{{ dado.celular }}</td>
+                <td>{{ dado.cep }}</td>
+                <td>{{ dado.endereco }}</td>
+                <td>{{ dado.complemento }}</td>
+                <td>{{ dado.bairro }}</td>
+                <td>{{ dado.localidade }}</td>
+                <td>{{ dado.uf }}</td>
+                <td>{{ dado.numero }}</td>
+                <td>{{ dado.datacadastro }}</td>
+                <td>{{ dado.aceita_whatsapp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <button onclick="exportarXLSX()">Exportar XLSX</button>
+
+    <!-- Adicione a biblioteca SheetJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+
+    <script>
+        function exportarXLSX() {
+            // Capturar os dados da tabela
+            const table = document.querySelector('table');
+            const rows = table.querySelectorAll('tr');
+            let data = [];
+
+            // Extrair os dados da tabela
+            rows.forEach((row) => {
+                const cols = row.querySelectorAll('td, th');
+                let rowData = [];
+                cols.forEach((col) => {
+                    rowData.push(col.textContent);
+                });
+                data.push(rowData);
+            });
+
+            // Criar um workbook com SheetJS
+            const ws = XLSX.utils.aoa_to_sheet(data);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, "Relatório de Dados");
+
+            // Gerar o arquivo XLSX
+            XLSX.writeFile(wb, 'relatorio_dados.xlsx');
+        }
+    </script>
+</body>
+</html>
