@@ -138,6 +138,9 @@ def import_to_excel(request):
 			with open(file_path, 'wb+') as temp_file:
 				for chunk in file.chunks():
 					temp_file.write(chunk)
+					
+			# limpa o banco
+			AppBanco.objects.all().delete()
 			
 			# Ler o arquivo
 			wb = load_workbook(file_path, data_only=True)
@@ -165,7 +168,7 @@ def import_to_excel(request):
 			# Deletar o arquivo temporário
 			os.remove(file_path)
 			
-			return redirect('import_success')
+			return redirect('import_success_page')
 		else:
 			return HttpResponse('Formato de arquivo inválido.')
 	
