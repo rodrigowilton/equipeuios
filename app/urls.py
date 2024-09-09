@@ -7,6 +7,7 @@ urlpatterns = [
     path('relatorio/', export_to_excel, name='export_to_excel'),  # Nova URL para exportação
     path('send_message/', views.send_message, name='send_message'),
     path('success/', views.success_page, name='success_page'),  # Adicionando a URL para a página de sucesso
+    path('error/', views.error_page, name='error_page'),
     
     # Adicione outras URLs aqui
 ]

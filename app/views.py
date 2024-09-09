@@ -11,6 +11,10 @@ from .models import AppBanco
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
+def error_page(request):
+    return render(request, 'error_page.html')
+
+
 def send_message(request):
     if request.method == 'POST':
         form = MessageForm(request.POST, request.FILES)
