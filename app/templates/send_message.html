@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enviar Mensagem via WhatsApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea,
+        .form-group input[type="file"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .form-group button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        .checkbox-group {
+            margin-top: 20px;
+        }
+
+        .checkbox-group label {
+            margin-right: 10px;
+        }
+
+        .checkbox-group ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checkbox-group li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enviar Mensagem via WhatsApp</h1>
+
+        <!-- Formulário para enviar mensagem -->
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form.as_p }}
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+
+        <!-- Seção para contatos (descomentada) -->
+        <!--
+        <h2>Contatos</h2>
+        <form method="post" action="{% url 'send_message' %}">
+            {% csrf_token %}
+            <div class="checkbox-group">
+                <input type="checkbox" id="select_all" onchange="toggleSelectAll(this)">
+                <label for="select_all">Selecionar Todos</label>
+
+                <ul>
+                    {% for contato in contatos %}
+                        <li>
+                            <input type="checkbox" name="contacts" value="{{ contato.id }}">
+                            {{ contato.nome }} ({{ contato.celular }})
+                        </li>
+                    {% empty %}
+                        <li>Nenhum contato disponível.</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+        -->
+    </div>
+
+    <script>
+        function toggleSelectAll(source) {
+            let checkboxes = document.querySelectorAll('input[name="contacts"]');
+            checkboxes.forEach(checkbox => checkbox.checked = source.checked);
+        }
+    </script>
+</body>
+</html>
