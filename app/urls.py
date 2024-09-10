@@ -10,6 +10,7 @@ urlpatterns = [
     path('success/', views.success_page, name='success_page'),  # Adicionando a URL para a página de sucesso
     path('success_import/', views.import_success, name='import_success_page'),  # Adicionando a URL para a página de sucesso
     path('error/', views.error_page, name='error_page'),
+    path('clientes/', views.cliente_page, name='cliente_page'),
     
     # Adicione outras URLs aqui
 ]

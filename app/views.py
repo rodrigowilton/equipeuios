@@ -173,3 +173,6 @@ def import_to_excel(request):
 			return HttpResponse('Formato de arquivo inválido.')
 	
 	return render(request, 'import_form.html')
+
+def cliente_page(request):
+    return render(request, 'cliente_page.html')
