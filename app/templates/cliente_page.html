@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Cliente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            margin: 20px 0;
+            color: #333;
+            font-size: 2.5rem; /* Aumenta o tamanho da fonte */
+            width: 80%;
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            max-width: 1200px; /* Adiciona um limite máximo de largura para telas grandes */
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button-blue {
+            background-color: #007bff;
+        }
+
+        .button-blue:hover {
+            background-color: #0056b3;
+        }
+
+        .button-red {
+            background-color: #dc3545;
+        }
+
+        .button-red:hover {
+            background-color: #c82333;
+        }
+
+        .button-green {
+            background-color: #28a745;
+        }
+
+        .button-green:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seleção de Cliente</h1>
+    <div class="container">
+        <div class="button-group">
+            <a href="http://equipeguilhermeleal.shop:8688/app/relatorio" class="button button-blue" target="_blank">Equipe Ghilherme Leal</a>
+            <a href="http://equipedoca.shop/app/relatorio" class="button button-blue" target="_blank">Equipe Doca</a>
+            <a href="http://equipegustavogama.shop:8700/app/relatorio" class="button button-blue" target="_blank">Equipe Gustavo Gama</a>
+            <a href="http://equipejasimilson.shop:8800/app/relatorio" class="button button-blue" target="_blank">Equipe Josimilson</a>
+            <a href="http://equipekb.shop:8000/app/relatorio" class="button button-blue" target="_blank">Equipe kb</a>
+            <a href="http://equipepriscila.shop:8080/app/relatorio" class="button button-blue" target="_blank">Equipe Priscila</a>
+            <a href="http://equiperodrigocibalena.shop:8788/app/relatorio" class="button button-blue" target="_blank">Equipe Rodrigo Cibalena</a>
+            <a href="http://equipevaval.shop:8600/app/relatorio" class="button button-blue" target="_blank">Equipe Vaval</a>
+            <a href="http://127.0.0.1:8000/app/import/" class="button button-red" target="_blank">Importar</a>
+            <a href="http://127.0.0.1:8000/app/send_message/" class="button button-green" target="_blank">Enviar Whatsapp</a>
+        </div>
+    </div>
+</body>
+</html>
