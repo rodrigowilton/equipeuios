@@ -12,7 +12,7 @@ class MessageForm(forms.Form):
 class AppBancoForm(forms.ModelForm):
     class Meta:
         model = AppBanco
-        fields = ['nome', 'celular', 'cep', 'endereco', 'complemento', 'bairro', 'localidade', 'uf', 'numero', 'aceita_whatsapp']
+        fields = ['nome', 'celular', 'cep', 'endereco', 'complemento', 'bairro', 'localidade', 'uf', 'numero', 'aceita_whatsapp', 'nome_lider', 'insta']
         widgets = {
             'cep': forms.TextInput(attrs={'id': 'id_cep'}),
             'endereco': forms.TextInput(attrs={'id': 'id_endereco'}),

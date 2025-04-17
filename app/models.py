@@ -13,6 +13,8 @@ class AppBanco(models.Model):
 	numero = models.CharField(max_length=10, null=False, blank=False)
 	datacadastro = models.DateTimeField(auto_now_add=True, null=False, blank=False)
 	aceita_whatsapp = models.BooleanField(default=False)
+	nome_lider = models.CharField(max_length=50, null=False, blank=False)
+	insta = models.CharField(max_length=50)
 
 
 	def __str__(self):

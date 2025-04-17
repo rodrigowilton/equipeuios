@@ -1,0 +1,992 @@
+Watching for file changes with StatReloader
+[31/Mar/2025 14:38:55] "GET /app/appbancouios/ HTTP/1.1" 200 8228
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[31/Mar/2025 14:38:56] "GET /favicon.ico HTTP/1.1" 404 2534
+[31/Mar/2025 14:39:07] "GET /app/appbancouios/ HTTP/1.1" 200 8228
+[31/Mar/2025 14:39:12] "GET /app/relatorio/ HTTP/1.1" 200 4510
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[31/Mar/2025 14:39:13] "GET /favicon.ico HTTP/1.1" 404 2534
+[31/Mar/2025 14:57:33] "GET /app/appbancouios/ HTTP/1.1" 200 8228
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[31/Mar/2025 14:57:33] "GET /favicon.ico HTTP/1.1" 404 2534
+[31/Mar/2025 16:38:02] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[31/Mar/2025 16:38:03] "GET /favicon.ico HTTP/1.1" 404 2534
+[31/Mar/2025 16:38:10] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+[31/Mar/2025 16:44:53] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[31/Mar/2025 16:44:53] "GET /favicon.ico HTTP/1.1" 404 2534
+[31/Mar/2025 16:45:24] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[31/Mar/2025 16:45:24] "GET / HTTP/1.1" 200 600
+[31/Mar/2025 16:45:35] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+[31/Mar/2025 18:01:24] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[31/Mar/2025 18:01:25] "GET /favicon.ico HTTP/1.1" 404 2534
+[31/Mar/2025 18:08:32] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00')
+[31/Mar/2025 18:08:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[31/Mar/2025 18:08:33] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06|')
+[31/Mar/2025 18:08:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[31/Mar/2025 18:08:33] code 400, message Bad request version ('\x13ö]£')
+[31/Mar/2025 18:08:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[31/Mar/2025 18:08:33] code 400, message Bad request version ("\x81µhÃ\x98\x14fÌ\x9eQ8\x9fËX\\ÝmÁe\x01'ç¬ÀÜV!\x16£\x11fì\x00")
+[31/Mar/2025 18:08:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[31/Mar/2025 18:08:48] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+[31/Mar/2025 18:37:03] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[31/Mar/2025 18:37:03] "GET / HTTP/1.1" 200 600
+[31/Mar/2025 18:37:08] "GET / HTTP/1.1" 200 600
+[31/Mar/2025 18:37:09] "GET / HTTP/1.1" 200 600
+[31/Mar/2025 18:37:09] "GET / HTTP/1.1" 200 600
+[31/Mar/2025 18:37:41] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+[01/Apr/2025 06:40:16] code 400, message Bad request version ("Ù\x03/¦IÚó?k9\x9d\x9a\\È×¬w\x9cëº5\x82lÁ'/ZXN\x84·\x157X,ñq^ÚHÆp\x9aJ\x088Áÿ%\x9e%b2")
+[01/Apr/2025 06:40:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:17] code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00')
+[01/Apr/2025 06:40:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:17] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\\ÊÊ\x00\x00\x00')
+[01/Apr/2025 06:40:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:17] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06|úú\x00\x00\x00')
+[01/Apr/2025 06:40:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:19] code 400, message Bad request version ('PÓÓà\x1b\x80\x93\x04\x193ôßíð\x88')
+[01/Apr/2025 06:40:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07')
+[01/Apr/2025 06:40:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:20] code 400, message Bad request syntax ('\x16\x03\x01\x07)\x01\x00\x07%\x03\x03W')
+[01/Apr/2025 06:40:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:21] code 400, message Bad request version ('Oë^\x05¦\x13\x91Uy\x00ðQp\x90]M\x84í\x95=\x95}\x98¼ä¦\x8fÔiBª·\x07Þ[b;\x91H\x02\x80/ëÇT¨Üâ\x14@®\x13®\x03Y¯xÌ\x12Òé\x80hWìÖ')
+[01/Apr/2025 06:40:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:35] code 400, message Bad request version ('\x00º\x00\x00\x01\x00\x01')
+[01/Apr/2025 06:40:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:35] code 400, message Bad request version ('X\x99\x9bF\x8a>t@\x83SV¶àYhîÈ;Ú')
+[01/Apr/2025 06:40:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:47] code 400, message Bad request version ('æ\x83_uÐ§~ôâ\x00¬ÑiE\x83Ð!')
+[01/Apr/2025 06:40:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:40:47] code 400, message Bad request version ('G.')
+[01/Apr/2025 06:40:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 06:41:22] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[01/Apr/2025 06:41:22] "GET /favicon.ico HTTP/1.1" 404 2534
+[01/Apr/2025 06:41:25] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+[01/Apr/2025 08:20:30] "GET /app/appbancouios/ HTTP/1.1" 200 8232
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[01/Apr/2025 08:20:30] "GET /favicon.ico HTTP/1.1" 404 2534
+[01/Apr/2025 08:26:11] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 31, 2025 - 14:38:52
+Django version 5.1.7, using settings 'setup.settings'
+Starting development server at http://0.0.0.0:9989/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/economia/venv/lib/python3.10/site-packages/django/core/checks/urls.py", line 136, in check_custom_error_handlers
+    handler = resolver.resolve_error_handler(status_code)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 732, in resolve_error_handler
+    callback = getattr(self.urlconf_module, "handler%s" % view_type, None)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/ruiaguir/equipeuios/setup/urls.py", line 3, in <module>
+    from app.views import index  # Importe a view 'index' do seu aplicativo
+  File "/root/ruiaguir/equipeuios/app/views.py", line 7, in <module>
+    from openpyxl import load_workbook
+ModuleNotFoundError: No module named 'openpyxl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+  File "/root/economia/venv/lib/python3.10/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/core/checks/urls.py", line 138, in check_custom_error_handlers
+    path = getattr(resolver.urlconf_module, "handler%s" % status_code)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/economia/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/ruiaguir/equipeuios/setup/urls.py", line 3, in <module>
+    from app.views import index  # Importe a view 'index' do seu aplicativo
+  File "/root/ruiaguir/equipeuios/app/views.py", line 7, in <module>
+    from openpyxl import load_workbook
+ModuleNotFoundError: No module named 'openpyxl'
+Performing system checks...
+
+Watching for file changes with StatReloader
+[01/Apr/2025 11:13:14] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[01/Apr/2025 11:13:14] "GET /favicon.ico HTTP/1.1" 404 2534
+[01/Apr/2025 20:21:27] code 400, message Bad request version ('z\x94eX')
+[01/Apr/2025 20:21:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:27] code 400, message Bad request version ("Ã\x9cæY\x9eÓ;+\x12âàB¬\x91VØKµf!.\x13^µ\x04Ô%;V'\x9c\x91\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+[01/Apr/2025 20:21:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:27] code 400, message Bad request version ('ÿj¶Ä«YX+ù\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[01/Apr/2025 20:21:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:27] code 400, message Bad request version ('#\x1aÔ^\\\x02ÚÏ\x06´¤\\ÚÊ\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[01/Apr/2025 20:21:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:27] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[01/Apr/2025 20:21:28] "GET /favicon.ico HTTP/1.1" 404 2534
+[01/Apr/2025 20:21:38,781] - Broken pipe from ('45.170.144.213', 62961)
+[01/Apr/2025 20:21:43] code 400, message Bad request version ('¼R\x9aÅ\x88\x84ÐyQ\x1aØI\x1a§¨\x8f·Ë\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[01/Apr/2025 20:21:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:43] code 400, message Bad request version ('\x18DÂ³.ì\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[01/Apr/2025 20:21:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:43] code 400, message Bad request version (':ÍÜ\x010\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[01/Apr/2025 20:21:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:43] code 400, message Bad request version ('\x9d[\x84Lï\x95÷\x07¸\x90\x04ÉÑÙ\x12C\x07¥\x88ý~\x11\x86;â\x9ca*¼¬nÁ\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[01/Apr/2025 20:21:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Apr/2025 20:21:43] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[01/Apr/2025 20:21:43] "GET /favicon.ico HTTP/1.1" 404 2534
+[01/Apr/2025 20:23:39] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[01/Apr/2025 20:23:39] "GET / HTTP/1.1" 200 600
+[02/Apr/2025 12:02:15] code 400, message Bad request version ('Q\x95\x98¦$¶O\x82Â½ÒK½\x03\x12ó`\x9f\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[02/Apr/2025 12:02:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Apr/2025 12:02:15] code 400, message Bad request version ('Ð\x8e¸öÑnª¡QèõÚZK\x15¯°3\x9b¶Û½\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[02/Apr/2025 12:02:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Apr/2025 12:02:15] code 400, message Bad request version (')ÿ\x11u\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[02/Apr/2025 12:02:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Apr/2025 12:02:16] code 400, message Bad request version ('5ÜÌø\x80¦Òç\x9b\x0ee¨\x8fgÒµdD¯\x9bm#±òóC')
+[02/Apr/2025 12:02:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Apr/2025 12:02:17] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[03/Apr/2025 08:10:42] code 400, message Bad request syntax ('\x16\x03\x01\x06É\x01\x00\x06Å\x03\x03±Å4\x05YÃ\x86\x10\x0eÅF¥ü1ä\x9dÔþ«Ò\x13å]')
+[03/Apr/2025 08:10:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:10:42] code 400, message Bad request version ('¹^')
+[03/Apr/2025 08:10:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:10:42] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00')
+[03/Apr/2025 08:10:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:10:43] code 400, message Bad request version ('\x99éò¦å¦\x14Â')
+[03/Apr/2025 08:10:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:10:43] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x9c')
+[03/Apr/2025 08:10:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:10:49] code 400, message Bad request version ('Ü\x0f\x98Ã')
+[03/Apr/2025 08:10:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:10:49] code 400, message Bad request version ('´Báëí\x00')
+[03/Apr/2025 08:10:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:11:09] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06|ÚÚ\x00\x00\x00')
+[03/Apr/2025 08:11:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:11:10] code 400, message Bad request version ('æ½\x07Ö<ß}*Ö:')
+[03/Apr/2025 08:11:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:11:16] code 400, message Bad request version ('#p\x15I&\x05µÚò¹')
+[03/Apr/2025 08:11:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:11:16] code 400, message Bad request version ('×\x9f¥\x87\x87Æ`\x90JÐ~ð\x89\x94\x1b{¯J+\x0e\x87\x15\x00\x8bKr\x95°*\x80Ä\x05k')
+[03/Apr/2025 08:11:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 08:11:32] "GET /app/relatorio/ HTTP/1.1" 200 5906
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[03/Apr/2025 08:11:33] "GET /favicon.ico HTTP/1.1" 404 2534
+[03/Apr/2025 08:12:31] code 400, message Bad request version ('À')
+[03/Apr/2025 08:12:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[03/Apr/2025 22:46:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[03/Apr/2025 22:46:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[04/Apr/2025 09:30:19] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 09:30:20] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 09:30:21] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:30:23] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:32:22] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:32:24] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:32:26] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 09:33:04] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:33:11] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:33:13] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:34:41] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:34:43] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:35:53] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:40:33] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:40:35] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 09:45:23] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 11:44:29] "GET /app/relatorio/ HTTP/1.1" 200 5906
+[04/Apr/2025 11:45:24] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 11:45:24] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 11:45:30] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 11:45:31] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 11:45:54] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 11:45:54] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 11:46:02] "GET /app/relatorio/ HTTP/1.1" 200 6347
+[04/Apr/2025 11:46:55] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 11:47:46] "GET /app/relatorio/ HTTP/1.1" 200 6347
+[04/Apr/2025 11:49:30] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 11:49:30] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 11:49:36] "GET /app/relatorio/ HTTP/1.1" 200 6801
+[04/Apr/2025 11:52:04,952] - Broken pipe from ('191.243.174.76', 64918)
+[04/Apr/2025 14:25:54] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 14:25:55] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 14:26:12] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 14:26:13] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 14:26:13] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 14:26:17] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 14:26:41] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 14:26:41] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 14:27:03] "GET /app/relatorio/ HTTP/1.1" 200 7261
+[04/Apr/2025 14:27:04] "GET /app/relatorio/ HTTP/1.1" 200 7261
+[04/Apr/2025 14:27:14] "GET /app/relatorio/ HTTP/1.1" 200 7261
+[04/Apr/2025 14:27:25] "GET /app/relatorio/ HTTP/1.1" 200 7261
+[04/Apr/2025 14:27:26] "GET /app/relatorio/ HTTP/1.1" 200 7261
+[04/Apr/2025 14:27:27] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 14:27:27] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 14:27:27] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:31] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:32] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:32] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:33] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:46] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:48] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:49] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:51] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:27:59] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:28:03] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:31:05] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:31:10] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:31:13] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:34:51] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:34:54] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:39:04] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:18] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:21] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:22] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:22] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:23] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:24] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:24] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:44:25] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:49:35] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:49:37] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:49:38] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:50:10] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:50:11] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 14:58:15] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:02:59] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:03:01] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:03:01] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:03:02] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:03:03] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:06:05] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:06:06] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:08:02] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:08:03] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:08:03] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:19:00] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:26] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:28] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:29] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:30] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:49] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:50] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:24:51] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:21] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:22] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:24] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:25] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:55] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:56] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:25:56] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:27:06] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:27:08] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:27:08] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:27:09] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:27:09] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:38] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:39] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:39] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:39] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:40] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:40] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:28:41] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:30:52] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:34:56] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:42:09] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:42:11] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 15:58:21] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:17:04] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:17:05] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:17:08] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:24:43] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:24:44] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:24:45] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:24:45] "GET /app/relatorio/ HTTP/1.1" 200 7724
+[04/Apr/2025 16:41:12] code 400, message Bad request version ('N\x06\x88%\x99')
+[04/Apr/2025 16:41:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:12] code 400, message Bad request version ('\x16\x9fû\x07nP\x94J\x8dX\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:12] code 400, message Bad request version ('2\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:12] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03æ}éô6c¢±')
+[04/Apr/2025 16:41:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:12] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:13] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:13] code 400, message Bad request version ("\x8bóìO¥W\x9d]È\x04¶\x90©¡x\x88T\x96(òSé'vW©É2jÉ\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8d9¼Jj\x17¢(GB\x95§$ìûts./#\x80*©\x90')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad request version ('¹§9\x89\x08¯ÇmáùrR\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ëJ5¡Fáq%´r')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad request version ('Ø¥¹\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad request version ('¶L¯\x18«\x84\x80')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad request version ('Q\x8bÛ\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:13] code 400, message Bad request version ('\x12x)\x84\x80áj\x97·,\x9eã½å\x88\x07$u÷s\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:14] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:14] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:14] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:14] "GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:14] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:15] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:15] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:16] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:16] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:18] code 400, message Bad request version ("\x06ê'\x03ÙJ\x8bIÕù\x0fu5×l\x16õiòëêWí\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+[04/Apr/2025 16:41:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:18] code 400, message Bad request version ('Wÿ\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:19] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03í7læEum\x14F3Ú.n¬cT\x93Ý`"É(1ô4ß\x00\x0f&\x8e.A')
+[04/Apr/2025 16:41:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:20] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:21] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:21] "GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:22] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:26] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:26] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:27] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:27] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:30] code 400, message Bad request version ('\x81\x16\x1a$\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:30] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:33] code 400, message Bad request version ('f\x04Ô\x01³Ry\x17\x180Ü\x9c)\xadÿ\x14\x12\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:33] code 400, message Bad request version (';½¹\x13vS\x12F\x00êÉo`Ò')
+[04/Apr/2025 16:41:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:33] code 400, message Bad request version ("®9'\x9ee²xM(Úî@JHD\x80A\x7f\x04\x018\x12\x01\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+[04/Apr/2025 16:41:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:33] code 400, message Bad request version ('ûÀ/\x11þ\x8f&Ó\x06Õq¿Sð/ïÊ(ð:jb°\x81Ë¹_}r³áÅ\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:33] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:33] "GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:35] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:41:41] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:41:41] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:41:46] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:41:46] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:41:54] code 400, message Bad request version ('Ê\x1bÇ\x1bÚq´B)ÖÄÆÉ\x86F\x9cÆ9X\x11\x9c¯6$4î!£÷;àá\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:41:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:55] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:41:55] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[04/Apr/2025 16:41:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:55] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ö')
+[04/Apr/2025 16:41:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:56] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x96')
+[04/Apr/2025 16:41:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:56] code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00+\x00\x07\x06**\x03\x04\x03\x03Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[04/Apr/2025 16:41:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:41:56] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:41:58] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:42:05] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:05] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:14] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:14] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:16] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:16] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:16] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:16] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:17] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:17] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:17] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:21] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:22] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:22] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:26] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:42:26] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:42:26] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:28] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:28,978] - Broken pipe from ('201.76.209.8', 55123)
+[04/Apr/2025 16:42:30] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:34] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:35] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:42:36] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:42:42] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:44] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:42:44] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:42:47,270] - Broken pipe from ('201.76.209.8', 51360)
+[04/Apr/2025 16:42:48] "GET /app/relatorio/ HTTP/1.1" 200 11874
+[04/Apr/2025 16:42:49] "POST /app/appbancouios/ HTTP/1.1" 200 8425
+[04/Apr/2025 16:42:55] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:42:58] "GET /app/relatorio/ HTTP/1.1" 200 11874
+[04/Apr/2025 16:43:02] "GET /app/relatorio/ HTTP/1.1" 200 11874
+[04/Apr/2025 16:43:04] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:43:08] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:43:08] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:43:11] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[04/Apr/2025 16:43:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:11] code 400, message Bad request version ('\x19\x95F')
+[04/Apr/2025 16:43:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:11] code 400, message Bad request version ('ñ\x00³')
+[04/Apr/2025 16:43:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:11] code 400, message Bad request version ('è\x0fPL8YÃ4¹@©')
+[04/Apr/2025 16:43:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:11] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:43:12] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:43:16] "POST /app/appbancouios/ HTTP/1.1" 200 8425
+[04/Apr/2025 16:43:20] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:43:20] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:43:21] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:43:21] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:43:25] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:43:25] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:43:28] code 400, message Bad request version ('\x9aâæ\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:43:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:28] code 400, message Bad request version ('jdBö\x1açÆ¶ßÁm¼s\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:43:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:29] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x18ùx\xadu-\x80Åzé\\L')
+[04/Apr/2025 16:43:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:29] code 400, message Bad request version ('\x97\x08ÜDÍv¼\x16Ç)\x11ÁQúùk\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:43:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:43:29] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:43:29] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:43:29] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:43:32] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:43:33] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:43:34] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:43:34] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:43:35] "GET / HTTP/1.1" 200 600
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:43:35] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:43:44] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:43:44] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:43:50,310] - Broken pipe from ('201.76.209.8', 6567)
+[04/Apr/2025 16:44:00] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:00] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:02] code 400, message Bad request version ('OæÕÞè¯èÌuÉ\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:44:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:02] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:02] code 400, message Bad request version ('Õ0qX¢\x19\x8a\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:44:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:02] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:02] code 400, message Bad request version ('ì\x99\x87cE\x84ÇZ±\x98r\xad`\x9bÜh{×<\x8c\x94')
+[04/Apr/2025 16:44:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:02] code 400, message Bad request version ('\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:44:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:02] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:44:14] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:14] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:17] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:44:18] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:44:23] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 16:44:27] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:27] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:31] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:31] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:41] code 400, message Bad request version ('¾O\x94»°!.%®d\x00*')
+[04/Apr/2025 16:44:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:42] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03µ\x13H\x9cË')
+[04/Apr/2025 16:44:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:42] code 400, message Bad request version ('\x95&^~§¢\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:44:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:42] code 400, message Bad request version ('ÍÂÿä\x9a2#à¡Ê+\x13\x97¶cs]ë1ñÖ\x03»l½\x03YñLts]\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:44:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:44:43] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:44:44] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:44:52] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:52] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:54] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:54] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:44:59] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:44:59] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:45:07,995] - Broken pipe from ('201.76.209.8', 59629)
+[04/Apr/2025 16:45:13] "GET /app/relatorio/ HTTP/1.1" 200 17839
+[04/Apr/2025 16:45:20] code 400, message Bad request version ('ö')
+[04/Apr/2025 16:45:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:45:20] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03µÂ\x14ÉØ3ªøn³ðþ¹Ñ\x8b\x9f]\x95'¶\x98½\x06p³%\x83\x95h³\x90")
+[04/Apr/2025 16:45:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:45:20] code 400, message Bad request version ('ä¿\x14÷E\x8ac')
+[04/Apr/2025 16:45:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:45:21] code 400, message Bad request version ('@S\x08\x04\x00-\x86nX\x8b°Ö¿H\x111Ã^÷·¼\x823Gkh`U]ç]K\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 16:45:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 16:45:21] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:45:21] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:45:21,706] - Broken pipe from ('201.76.209.8', 53554)
+[04/Apr/2025 16:45:27] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:45:27] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:45:31] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:45:31] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:45:35] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:45:35] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:45:38] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:45:38] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:45:48,864] - Broken pipe from ('201.76.209.8', 51386)
+[04/Apr/2025 16:45:50] "GET /app/relatorio/ HTTP/1.1" 200 19666
+[04/Apr/2025 16:45:53] "GET /app/relatorio/ HTTP/1.1" 200 19666
+[04/Apr/2025 16:45:57] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 16:45:57] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 16:46:08,935] - Broken pipe from ('201.76.209.8', 48188)
+[04/Apr/2025 16:47:31] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 16:47:38] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 16:49:53] "GET /app/relatorio/ HTTP/1.1" 200 20124
+[04/Apr/2025 16:50:05] "GET /app/relatorio/ HTTP/1.1" 200 20124
+[04/Apr/2025 16:50:07] "GET /app/relatorio/ HTTP/1.1" 200 20124
+[04/Apr/2025 17:03:26] "GET / HTTP/1.1" 200 600
+Not Found: /apple-touch-icon-120x120-precomposed.png
+WARNING:django.request:Not Found: /apple-touch-icon-120x120-precomposed.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 2621
+Not Found: /apple-touch-icon-120x120.png
+WARNING:django.request:Not Found: /apple-touch-icon-120x120.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 2585
+Not Found: /apple-touch-icon-precomposed.png
+WARNING:django.request:Not Found: /apple-touch-icon-precomposed.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2597
+Not Found: /apple-touch-icon.png
+WARNING:django.request:Not Found: /apple-touch-icon.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon.png HTTP/1.1" 404 2561
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 17:03:26] "GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /apple-touch-icon-120x120-precomposed.png
+WARNING:django.request:Not Found: /apple-touch-icon-120x120-precomposed.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 2621
+Not Found: /apple-touch-icon-120x120.png
+WARNING:django.request:Not Found: /apple-touch-icon-120x120.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 2585
+Not Found: /apple-touch-icon-precomposed.png
+WARNING:django.request:Not Found: /apple-touch-icon-precomposed.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2597
+Not Found: /apple-touch-icon.png
+WARNING:django.request:Not Found: /apple-touch-icon.png
+[04/Apr/2025 17:03:26] "GET /apple-touch-icon.png HTTP/1.1" 404 2561
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 17:03:26] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 17:03:54,915] - Broken pipe from ('201.76.209.8', 6830)
+[04/Apr/2025 19:05:08] code 400, message Bad request version ('\x8e®ÊÞVe\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 19:05:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:05:08] code 400, message Bad request version ('3\x9dñï9^C$o\x97ö\x9asa°SJõ\x02Aß«H4»\x95Ø\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 19:05:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:05:08] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x16\x93Oiõ@\x95,')
+[04/Apr/2025 19:05:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:05:08] code 400, message Bad request version ('°-Úó\x05\x91ã\x13À|¥2\x0fW{Ql\x82ÍÃä\x1a\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 19:05:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:05:08] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 19:13:41] code 400, message Bad request version ('\x8f\x87\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 19:13:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:13:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¢È|\x84¯XÉÝ2\x0eÐu')
+[04/Apr/2025 19:13:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:13:41] code 400, message Bad request version ('üÔÃ7w\x95\x9fGÃpF¿Ã"è\x12\x14Â\x053)\x82½7¢#û¬ä\x95I\x95\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 19:13:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:13:41] code 400, message Bad request version ('\x8fb\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 19:13:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 19:13:41] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 20:31:31] code 400, message Bad request version ('\x9a§)ì®\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 20:31:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:31:31] code 400, message Bad request version ('\x94-ZÉb\x0e«\x00%¯\x14w\x8cÏ\xadS´\x04S\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 20:31:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:31:31] code 400, message Bad request version ('Î¬ÅÚì÷ü-\x13Õ;eu0¡T\x84\x9cK¸h\x96w38WÊ\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 20:31:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:31:31] code 400, message Bad request version (')4"¶\x7f¢Å#åö³e4PÕèh¾ê\x86»J\x98ÏKÁRæñ\x13O.\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 20:31:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:31:31] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 20:38:46] code 400, message Bad request version ('8')
+[04/Apr/2025 20:38:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:38:46] code 400, message Bad request version ('ÞÃ{\x8bÙÂìÝÌ¹¯ü\x8c\xad\x17s±¿Hûô\x10»\x8d7×©\x96$\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 20:38:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:38:47] code 400, message Bad request version ('\x9bRO')
+[04/Apr/2025 20:38:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:38:47] code 400, message Bad request version ('\x8fÐ¼È\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 20:38:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 20:38:47] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 21:06:48] code 400, message Bad request version ('Û\x81\x9cÚÇYÏ\x9cÆ.[²Ô~À1\x00Ù\x12Ú\x11')
+[04/Apr/2025 21:06:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 21:06:48] code 400, message Bad request version ('\x90á"\x95°¯ÝV-²ä\x94K÷Å\x94n\x8aÊ7¬ÚÇ½Þ\x02\x96§1\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 21:06:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 21:06:48] code 400, message Bad request version ('\x9d\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 21:06:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 21:06:48] code 400, message Bad request version ('raFÿF\x993øÔi\x99\x13×\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 21:06:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 21:06:48] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 21:37:55] "GET / HTTP/1.1" 200 600
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 21:38:01] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 23:43:11] code 400, message Bad request version ('þdÇ¯E²\x80%!ÿ\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 23:43:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 23:43:11] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03_\x8aÜè«0àHlÃ\x04\x12nLRØ§')
+[04/Apr/2025 23:43:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 23:43:12] code 400, message Bad request version ('"\x02\x92×')
+[04/Apr/2025 23:43:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 23:43:12] code 400, message Bad request version ('k·\x89@\x00\x8eÑ\x86`3\x87¢E\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[04/Apr/2025 23:43:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2025 23:43:12] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 23:43:12] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 23:43:37] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 23:43:37] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 23:43:54] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 23:43:54] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 23:44:39] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 23:44:39] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 23:44:56] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[04/Apr/2025 23:45:02] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 23:45:02] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 23:45:11] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 23:45:11] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 23:46:15] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[04/Apr/2025 23:46:30] "GET /favicon.ico HTTP/1.1" 404 2534
+[04/Apr/2025 23:49:17] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[04/Apr/2025 23:49:17] "GET / HTTP/1.1" 200 600
+[04/Apr/2025 23:49:54] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[05/Apr/2025 00:00:30] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 01:50:54] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 01:50:54] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 08:29:49] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03³£gj*ý|')
+[05/Apr/2025 08:29:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 08:29:50] code 400, message Bad request version ('\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 08:29:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 08:29:50] code 400, message Bad request version ('\x8c¬ð]d±\x8b')
+[05/Apr/2025 08:29:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 08:29:50] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+[05/Apr/2025 08:29:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 08:29:50] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 08:29:51] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 08:43:33] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 08:43:34] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 08:44:05] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[05/Apr/2025 08:44:05] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 09:32:10] code 400, message Bad request version ('8b\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 09:32:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:10] code 400, message Bad request version ('±°\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 09:32:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:10] code 400, message Bad request version ('l\x98d%²\x08\x0eË]À¦\x1b/\x12vÓQY8\x7f¡g\x16É\xadP·\x07w\x8dXÂ\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 09:32:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:10] code 400, message Bad request version ('n\x17\x80\x07\xadA\x04\x83\x95J\x01\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 09:32:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:10] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 09:32:11] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 09:32:21] code 400, message Bad request version ('Ö1,GTO+\x89PÃ^Á¥Oi8Àýø\x8e<wKÍ®~"\x13eæ\x8eH\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 09:32:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:21] code 400, message Bad request version ('þIYìbtÅïùL+Û\x82\x02Kæ\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 09:32:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÌL\x1aQí°+É\x98y4\x13\x8a·ÍâÆBRÏ?ÏÝ\x18²ý-\x06íÅÂö')
+[05/Apr/2025 09:32:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:21] code 400, message Bad request version ('¹W}îY\x07H\x80U')
+[05/Apr/2025 09:32:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 09:32:21] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[05/Apr/2025 09:32:53] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[05/Apr/2025 09:32:53] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 09:32:59,705] - Broken pipe from ('191.215.37.53', 52914)
+[05/Apr/2025 10:21:03] code 400, message Bad request version ('&çªøð¶·\x8cÀý\x00*ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:03] code 400, message Bad request version ('NòzQ+o\x98+µL;àºá5å\x8f\x04Ã\x98$\x18\x9f¸P\x8f¤ï)<e{\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:03] code 400, message Bad request version ('4-£SÆ\x95\x7f\x06\x02íÓ:d\x07\x19\x11\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:03] code 400, message Bad request version ('Á3¾ÔÀ÷ëX¯Ìþ\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:03] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /apple-touch-icon-precomposed.png
+WARNING:django.request:Not Found: /apple-touch-icon-precomposed.png
+[05/Apr/2025 10:21:13] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2597
+Not Found: /apple-touch-icon.png
+WARNING:django.request:Not Found: /apple-touch-icon.png
+[05/Apr/2025 10:21:13] "GET /apple-touch-icon.png HTTP/1.1" 404 2561
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 10:21:13] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 10:21:21,818] - Broken pipe from ('200.202.99.207', 10360)
+[05/Apr/2025 10:21:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ë@åjV')
+[05/Apr/2025 10:21:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:23] code 400, message Bad request version ('b±ÒHA£Õ.h\x95¼Å{Æ{¥\x18Þ%AV`\x8fXB\xad\x98í\x01¡«Ú\x00,ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:23] code 400, message Bad request version ('\x00\x00\x14À')
+[05/Apr/2025 10:21:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('¡<£cxÍL*\x11ºc\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('9Ù^\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('\x86Z\x9f\x15åP2$5\x00*')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03§\x7f#^"éK\x92\x9e!2\x03JæV')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('\x17BéR_ö}Ï\x89+Åä^Áº\x00A\x93ôF\\\x17B÷\x00*ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('(:\x89©03\x8d9~ñF¯Ú\x88~T\\\x96Èø\x86ÌK+\x97#©\x99ó.Zc\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('_ö¦\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:21:59] code 400, message Bad request version ('Å©|5}\x8f}*!]_ÂÇåí¸ÿPp»øî]OÍ\xad¦D\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:21:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:22:01] code 400, message Bad request version ('XtîÂËV¶X\x86\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:22:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:22:01] code 400, message Bad request version ('\x82-Z@SjeÅé"ìf7RÉÎ¬.Ì\x97ï\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:22:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:22:01] code 400, message Bad request version ('\x9f9\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:22:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 10:22:01] code 400, message Bad request version ('÷#*/»ì\x0f\x83>ùÔKÊ]é¨\x84#7\x98\x03êtÿ\x90\x01Yn\x9cDi¥\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 10:22:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 11:31:41] code 400, message Bad request version ('\x97\x14z¦F\x9dñaqJý')
+[05/Apr/2025 11:31:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 11:31:41] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x15åá\x94ôMÙ/BÆñj°^xT')
+[05/Apr/2025 11:31:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 11:31:41] code 400, message Bad request version ('Í\x1bVx')
+[05/Apr/2025 11:31:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 11:31:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03M\x8d¶ãXº±qÍ:T70\x07d\x7fÏÚ.÷ùB"^XG1*hówÎ')
+[05/Apr/2025 11:31:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 11:31:42] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 12:06:38] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 13:10:36] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 13:10:36] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 13:11:15] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[05/Apr/2025 13:11:15] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 13:11:37,618] - Broken pipe from ('191.57.14.184', 61987)
+[05/Apr/2025 13:11:37,620] - Broken pipe from ('191.57.14.184', 61988)
+[05/Apr/2025 13:28:40] code 400, message Bad request version ('\x17¸\x97P4h\x0eh\x17£P»RúP\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 13:28:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 13:28:40] code 400, message Bad request version ('çÜ\\î\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 13:28:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 13:28:40] code 400, message Bad request version ('lÑC\x08Ø\x9dbûÚ\x13')
+[05/Apr/2025 13:28:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 13:28:40] code 400, message Bad request version ('þ¡u\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 13:28:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 13:28:40] "GET / HTTP/1.1" 200 600
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 14:12:47] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 14:13:00,601] - Broken pipe from ('191.57.12.214', 63059)
+[05/Apr/2025 14:13:00,601] - Broken pipe from ('191.57.12.214', 63060)
+[05/Apr/2025 17:42:58] code 400, message Bad request version ('A\x8c6\x9fãôÑÆ\x8f¡á\x17\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 17:42:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 17:42:58] code 400, message Bad request version ('¢ë\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 17:42:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 17:42:58] code 400, message Bad request version ('\x8dI\x92\x9c\x94\x06!n\x03w\x96Ú\x08¾Oª\x07O¼BO\x9fÕZ\x1b\x19i`\x0e`÷\x87\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 17:42:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 17:42:58] code 400, message Bad request version ('©6\x0f%\x8ah\x99\x9dÌ\x1b\x8fÁØO*\\lm9\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 17:42:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 17:42:58] "GET / HTTP/1.1" 200 600
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 17:42:58] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 18:38:03] code 400, message Bad request version ('°£î°{gïå¨¦ò\x01O2\x07u@\x88>o²ÄµÏ5Ý\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 18:38:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 18:38:03] code 400, message Bad request version ('ø\x91Â[1w\x8ce\x94²ï[¨ì+\x84`deÝÀ\x02bwmÅ³æ}\x86WÂ\x00*')
+[05/Apr/2025 18:38:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 18:38:03] code 400, message Bad request version ('\x87"Ý\x9fÏYIè\xad®.5\x8d¢,».ð²\x18\x01©³ä«XUH±\x8feñ\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[05/Apr/2025 18:38:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 18:38:03] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x035MÅaG7(B¦îÆ"æÈ\x87©ã')
+[05/Apr/2025 18:38:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2025 18:38:03] "GET / HTTP/1.1" 200 600
+[05/Apr/2025 20:45:27] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[05/Apr/2025 20:45:29] "GET /favicon.ico HTTP/1.1" 404 2534
+[05/Apr/2025 20:46:11] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[05/Apr/2025 20:46:11] "GET / HTTP/1.1" 200 600
+[06/Apr/2025 01:37:31] "GET / HTTP/1.1" 200 600
+[06/Apr/2025 12:08:14] "GET / HTTP/1.1" 200 600
+[06/Apr/2025 15:04:05] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01öºº\x00\x00\x00')
+[06/Apr/2025 15:04:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2025 15:04:05] code 400, message Bad request version ('©\x13ãÒ\x9e\x8d')
+[06/Apr/2025 15:04:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2025 15:04:05] code 400, message Bad request version ('www.rui.aguiar.rickeleicoes.shop\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00')
+[06/Apr/2025 15:04:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2025 15:04:05] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[06/Apr/2025 15:04:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2025 15:04:05] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00\x00')
+[06/Apr/2025 15:04:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2025 15:04:05] code 400, message Bad request version ('fÓ\x1a\x8b\x16K¼â\x8a¯')
+[06/Apr/2025 15:04:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2025 15:04:06] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[06/Apr/2025 15:04:07] "GET /favicon.ico HTTP/1.1" 404 2534
+[06/Apr/2025 15:04:57] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[06/Apr/2025 15:04:57] "GET / HTTP/1.1" 200 600
+[06/Apr/2025 15:05:02] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[06/Apr/2025 15:05:31] "POST /app/appbancouios/ HTTP/1.1" 200 8422
+[06/Apr/2025 15:05:48] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[06/Apr/2025 15:05:48] "GET / HTTP/1.1" 200 600
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[06/Apr/2025 20:49:41] "GET /favicon.ico HTTP/1.1" 404 2534
+[07/Apr/2025 00:16:22] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 05:12:39] "GET / HTTP/1.1" 200 600
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[07/Apr/2025 05:12:39] "GET /favicon.ico HTTP/1.1" 404 2534
+[07/Apr/2025 05:12:41] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 05:12:46] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 05:12:51] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 05:13:09] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 05:13:56] "POST /app/appbancouios/ HTTP/1.1" 200 8422
+[07/Apr/2025 05:14:32] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 05:14:50] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 05:25:14] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 05:25:16] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 05:25:50] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 05:25:55] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 05:26:18] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 05:32:00] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 10:32:38] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[07/Apr/2025 12:34:21] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 15:30:17] code 400, message Bad request version ('p\x81o\x04/\x01\x88\x812è\x18\x87Üüb·÷ÌË\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[07/Apr/2025 15:30:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2025 15:30:18] code 400, message Bad request version ('M\x88!\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[07/Apr/2025 15:30:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2025 15:30:18] code 400, message Bad request version ('\x81`Èâ¹R×\x1a\x16Ç[\x08ì\x80©]>"\x02àWÓ\x02Î\x05Ë\x89\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[07/Apr/2025 15:30:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2025 15:30:18] code 400, message Bad request version ('\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[07/Apr/2025 15:30:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2025 17:04:39] "GET / HTTP/1.1" 200 600
+[07/Apr/2025 17:04:50,609] - Broken pipe from ('186.242.146.149', 55315)
+[08/Apr/2025 00:32:54] "GET / HTTP/1.1" 200 600
+[08/Apr/2025 12:31:50] "GET / HTTP/1.1" 200 600
+[09/Apr/2025 00:54:53] "GET / HTTP/1.1" 200 600
+[09/Apr/2025 11:27:54] "GET / HTTP/1.1" 200 600
+[09/Apr/2025 23:52:11] code 400, message Bad request version ('Æz\x0eñàè\x16rt[{¶ñ7¦\\<xÔ\x00*\x8a\x8a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[09/Apr/2025 23:52:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:11] code 400, message Bad request version ('+5£\x89ØfÕÐ¦În\x99û§Ú÷Qç\x9e\x13?a[\x03\x96f¦\x0e@±<\x7f\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[09/Apr/2025 23:52:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:11] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¶Î\x04wY?£\x05\x99J(ïÿ\x94÷¾Báºp\x03k³\x88£¹9\x05^\x96\x1aÍ')
+[09/Apr/2025 23:52:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:11] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03I5.(ó\x06eDEâV\x87aØ%b´>Î')
+[09/Apr/2025 23:52:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:11] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+[09/Apr/2025 23:52:11] code 400, message Bad request version ('¹\x99¯6\x04\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[09/Apr/2025 23:52:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:12] code 400, message Bad request version ('Ix\x9a^\x106TÌNÌ\x99!¯(¹jv\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[09/Apr/2025 23:52:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:12] code 400, message Bad request version ('Yö^\x8cç\xad\x92Ê©Üú8\x0fa©ïn©\x9fÅ§ùÔù\x11óï\x8eWÍ¥÷\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[09/Apr/2025 23:52:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:12] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Óý\x0fe\x95\x9aÑnOI¬'ö\x08|Ï\x0e¬çÕÐÉà")
+[09/Apr/2025 23:52:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Apr/2025 23:52:12] "GET / HTTP/1.1" 200 600
+[10/Apr/2025 00:45:07] "GET / HTTP/1.1" 200 600
+[10/Apr/2025 12:51:53] "GET / HTTP/1.1" 200 600
+[10/Apr/2025 18:04:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03l×FÁZèj\x94E\x9c\x99Õ')
+[10/Apr/2025 18:04:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Apr/2025 18:04:41] code 400, message Bad request version ('\x92ðKê£+Y4°\x84OôPHJº\x93\x80\x06!²ô÷ß¦v\x9b\xad\x16\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[10/Apr/2025 18:04:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Apr/2025 18:04:41] code 400, message Bad request version ('e@bß¹\x9a(dÖsD¼ÖØ¡\x88¥Î?¦ìæ±C\x94}P½\x19Îq÷\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[10/Apr/2025 18:04:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Apr/2025 18:04:41] code 400, message Bad request version ("ñ-¶jV\x12\x07Õ¯\x83\x8e|Uõg¤\x011ø\x02'ëèu304\x89q(Â\x96\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+[10/Apr/2025 18:04:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Apr/2025 18:04:41] code 400, message Bad request version ('4¬\x9e\x89òð£\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+[10/Apr/2025 18:04:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Apr/2025 18:04:41] "GET / HTTP/1.1" 200 600
+[11/Apr/2025 01:12:12] "GET / HTTP/1.1" 200 600
+[11/Apr/2025 11:11:11] "GET / HTTP/1.1" 200 600
+[11/Apr/2025 18:36:18] "GET /app/appbancouios/ HTTP/1.1" 200 8236
+Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+[11/Apr/2025 18:36:19] "GET /favicon.ico HTTP/1.1" 404 2534
+[11/Apr/2025 18:37:23] "POST /app/appbancouios/ HTTP/1.1" 302 0
+[11/Apr/2025 18:37:23] "GET / HTTP/1.1" 200 600
+[11/Apr/2025 18:37:44,292] - Broken pipe from ('179.67.196.22', 61349)
+[12/Apr/2025 02:07:30] "GET / HTTP/1.1" 200 600
+[12/Apr/2025 02:36:04] "GET / HTTP/1.1" 200 600
