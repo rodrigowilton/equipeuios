@@ -21,5 +21,10 @@ class AppBancoForm(forms.ModelForm):
             'localidade': forms.TextInput(attrs={'id': 'id_localidade'}),
             'uf': forms.TextInput(attrs={'id': 'id_uf'}),
             'numero': forms.TextInput(attrs={'id': 'id_numero'}),
-            'aceita_whatsapp': forms.CheckboxInput(attrs={'class': 'form-check-input'})
+            'aceita_whatsapp': forms.Select(choices=AppBanco._meta.get_field('aceita_whatsapp').choices, attrs={'class': 'form-select'})
         }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        # Opcional: Adicionar um label mais amigável ao dropdown
+        self.fields['aceita_whatsapp'].label = "Aceita receber mensagem pelo WhatsApp?"
